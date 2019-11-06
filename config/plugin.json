@@ -1,0 +1,12 @@
+{
+    "name" : "Xintesa\\Grapesjs",
+    "description" : "GrapesJS Integration for Croogo",
+
+    "author" : "Xintesa",
+
+    "dependencies": {
+        "plugins": [
+            "Croogo/Wysiwyg"
+        ]
+    }
+}

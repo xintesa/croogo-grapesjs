@@ -1,0 +1,23 @@
+{
+    "name": "xintesa/croogo-grapesjs",
+    "description": "GrapesJS plugin for Croogo",
+    "type": "croogo-plugin",
+    "license": "MIT",
+    "require": {
+        "croogo/croogo": "4.0.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.14|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xintesa\\Grapesjs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Xintesa\\Grapesjs\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
