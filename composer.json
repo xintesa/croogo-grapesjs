@@ -2,7 +2,7 @@
     "name": "xintesa/croogo-grapesjs",
     "description": "GrapesJS plugin for Croogo",
     "type": "croogo-plugin",
-    "license": "MIT",
+    "license": "BSD-3-Clause",
     "require": {
         "croogo/croogo": "4.0.x-dev"
     },
