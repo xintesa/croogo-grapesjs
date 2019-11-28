@@ -17,7 +17,7 @@ Croogo.Wysiwyg.Grapesjs = {
                 Croogo.Wysiwyg.Grapesjs.instance[elementId] = grapesjs.init({
                     container: '#' + editorId,
                     components: $el.val(),
-                    storage: [],
+                    storageManager: false,
                     plugins: [
                         'gjs-preset-webpage'
                     ]
